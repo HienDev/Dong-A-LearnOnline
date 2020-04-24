@@ -16,5 +16,9 @@ namespace Dong_A_LearnOnline.Controllers
         {
             return View();
         }
+        public IActionResult Create()
+        {
+            return View();
+        }
     }
 }
