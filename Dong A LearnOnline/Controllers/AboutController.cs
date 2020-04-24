@@ -12,5 +12,9 @@ namespace Dong_A_LearnOnline.Controllers
         {
             return "Hello World";
         }
+        public IActionResult Contact()
+        {
+            return View();
+        }
     }
 }
